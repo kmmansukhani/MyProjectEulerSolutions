@@ -12,8 +12,6 @@ numletters = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7:
 
 
 def getLettersGivenNum(n):
-    if n == 100:
-      return "one hundred"
     if n == 1000:
       return "one thousand"
     if n in numletters:
