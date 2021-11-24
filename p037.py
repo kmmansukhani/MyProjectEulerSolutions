@@ -5,7 +5,6 @@ Find the sum of the only eleven primes that are both truncatable from left to ri
 
 NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes.
 '''
-import math
 def is_prime(n):
     if n == 1:
         return False
